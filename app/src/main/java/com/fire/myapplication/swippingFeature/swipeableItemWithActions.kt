@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
@@ -42,10 +43,11 @@ import kotlin.math.roundToInt
 @Composable
 fun SwipeGesture(
     isRevealed: Boolean,
-    modifier: Modifier =Modifier,
+
     actions:@Composable RowScope.()->Unit,
     onCollapsed : ()->Unit = {},
     onExpanded : ()->Unit={},
+    modifier: Modifier =Modifier,
 
     content:@Composable ()->Unit,
 
@@ -88,7 +90,7 @@ fun SwipeGesture(
             actions()
 
         }
-        Surface(modifier=Modifier.fillMaxWidth().offset{ IntOffset(offset.value.roundToInt(),0) }
+        Surface(modifier=Modifier.fillMaxSize().offset{ IntOffset(offset.value.roundToInt(),0) }
             .pointerInput(true){
                 detectHorizontalDragGestures(onHorizontalDrag = {_,dragAmount ->
                     scope.launch {

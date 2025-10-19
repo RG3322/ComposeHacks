@@ -2,7 +2,7 @@ package com.fire.myapplication.swippingFeature
 
 /**
  *
- * basic icon funtions
+ * basic icon functions
  *
  *
  *

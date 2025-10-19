@@ -9,12 +9,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 
 @Composable
-fun ActionIcon(modifier : Modifier= Modifier,
-               icon: ImageVector,
-               contentDescription:String?=null,
-               onClick:()->Unit,
-               backgroundColor: Color,
-               tint: Color= Color.White
+fun ActionIcon(
+    modifier: Modifier = Modifier,
+    icon: ImageVector,
+    contentDescription: String? =null,
+    onClick: () -> Unit,
+    backgroundColor: Color,
+    tint: Color = Color.White
 ){
 
     IconButton(
