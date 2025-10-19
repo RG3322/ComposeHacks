@@ -1,4 +1,4 @@
-package com.fire.myapplication
+package com.fire.myapplication.swippingFeature
 
 import androidx.compose.foundation.background
 import androidx.compose.material3.Icon
