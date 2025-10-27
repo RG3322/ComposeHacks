@@ -1,6 +1,6 @@
 package com.fire.myapplication.swippingFeature
 
-import androidx.compose.animation.core.Animatable
+/*import androidx.compose.animation.core.Animatable
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.IntrinsicSize
@@ -134,5 +134,7 @@ fun SwipeGesture(
 
 
 }
+
+ */
 
 

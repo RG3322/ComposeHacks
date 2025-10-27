@@ -1,11 +1,11 @@
 package com.fire.myapplication.swippingFeature
-
+/*
 import android.widget.Toast
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.material.icons.Icons
+import androidx.compose.material.iicons.Icons
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Share
@@ -96,3 +96,4 @@ fun ContactScreenPreview(){
     ContactScreen()
 }
 
+*/

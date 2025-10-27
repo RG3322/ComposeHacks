@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.fire.myapplication.popbutton.PopButton
-import com.fire.myapplication.swippingFeature.ContactScreen
+//import com.fire.myapplication.swippingFeature.ContactScreen
 import com.fire.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,6 +20,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+
+
             MyApplicationTheme {
 
                 PopButton()

@@ -1,6 +1,6 @@
 package com.fire.myapplication.swippingFeature
 
-data class ContactUI(
+/*data class ContactUI(
     val id: Int,
     val name: String,
     val isOptionRevealed: Boolean = false
@@ -18,4 +18,5 @@ data class ContactUI(
  *
  *
  *
+ */
  */
